@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://carbon-dashboard-wine.vercel.app/',
+  baseURL: 'https://carbon-dashboard-backend.onrender.com',
   headers: { 'Content-Type': 'application/json' },
 })
 
